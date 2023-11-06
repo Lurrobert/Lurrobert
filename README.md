@@ -1,14 +1,18 @@
 ### Hi there 👋
 
-I'm Robert (20 y.o.)
+I'm Robert (21 y.o.)
 
-- 🔭 I’m currently working on 
+- 🔭 I’m currently working on
+  - [BakLLava-1 Stream your webcam ad let the AI tell what does it see!](https://github.com/Fuzzy-Search/realtime-bakllava)
+  - [Chat with page, chrome extension where you can use your openAI API key and chat with page! 100% private and free](https://github.com/Fuzzy-Search/chat-with-page)
+
+- My past projects to mention:
   - [Client Vector Search](https://github.com/yusufhilmi/client-vector-search.git) compute embedding on client side! no server calls
   - [ChatGPT Voice](https://chrome.google.com/webstore/detail/chatgpt-voice-text-to-spe/ofpeipdciebnhnblkbiemnolockiikno) one evening I really wanted to talk to chatGPT and hear voice of [Rick Sanchez](assets/rick.png) so I built a side hustle chrome extension
 
 :page_with_curl: 🌱I'm currently learn:
 <br><br>
-![TypeScript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square) ![Next.js](https://img.shields.io/badge/next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square) ![Next.js](https://img.shields.io/badge/next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) AND GPU:)
 
 And man, I talk in python when I sleep
 
@@ -18,8 +22,11 @@ And man, I talk in python when I sleep
   - openai API
   - chrome extensions
   - search engines
+  - Llama.cpp
+  - WebGPU
+  - GPU
 
-💬 Ask me about my favoutie podcast and SF startup
+💬 Ask me about my favourite podcast and SF startup
 
 
 📫 How to reach me:
