@@ -64,7 +64,7 @@ def svg(h, body, extra_defs=""):
 def hero(t):
     h = 540
     pill = "ROBERT  ·  YC FOUNDER  ·  SAN FRANCISCO"
-    pill_w = mono_len(pill, 13) + 64
+    pill_w = mono_len(pill, 14) + 64
     cmd = "$ focus --robotics --harness --gpu --compute"
     cmd_w = mono_len(cmd, 16)
     cmd_x = (W - cmd_w - 18) / 2
@@ -85,8 +85,8 @@ def hero(t):
 </g>
 <rect x="{(W - pill_w) / 2}" y="66" width="{pill_w}" height="36" rx="18" fill="{t['tile']}" stroke="{t['border']}"/>
 <circle cx="{(W - pill_w) / 2 + 22}" cy="84" r="4.5" fill="url(#g)"/>
-<text x="{(W - pill_w) / 2 + 40}" y="88.5" font-family="{MONO}" font-size="13" fill="{t['muted']}"
-  textLength="{mono_len(pill, 13)}" lengthAdjust="spacing">{pill}</text>
+<text x="{(W - pill_w) / 2 + 40}" y="88.5" font-family="{MONO}" font-size="14" fill="{t['muted']}"
+  textLength="{mono_len(pill, 14)}" lengthAdjust="spacing">{pill}</text>
 <text x="600" y="214" text-anchor="middle" font-size="84" font-weight="700" letter-spacing="-3.2" fill="{t['text']}">Robotics. Harnesses.</text>
 <text x="600" y="306" text-anchor="middle" font-size="84" font-weight="700" letter-spacing="-3.2" fill="url(#g)">GPUs. Compute.</text>
 <text x="600" y="378" text-anchor="middle" font-size="24" fill="{t['muted']}">YC founder. I scaled stormy.ai to $250k ARR, solo.</text>
@@ -107,9 +107,9 @@ def stats(t):
         tiles.append(f'''
 <g transform="translate({x:.2f} 0)">
   <rect x="0.5" y="0.5" width="{tw - 1:.2f}" height="{h - 1}" rx="20" fill="{t['tile']}" stroke="{t['border']}"/>
-  <text x="26" y="42" font-family="{MONO}" font-size="12" letter-spacing="1.5" fill="{t['faint']}">{label}</text>
+  <text x="26" y="42" font-family="{MONO}" font-size="14" letter-spacing="1.5" fill="{t['faint']}">{label}</text>
   <text x="24" y="112" font-size="56" font-weight="700" letter-spacing="-2.2" fill="{fill}">{number}</text>
-  <text x="26" y="146" font-size="16" fill="{t['muted']}">{caption}</text>
+  <text x="26" y="148" font-size="18" fill="{t['muted']}">{caption}</text>
 </g>''')
     return svg(h, "".join(tiles))
 
@@ -170,11 +170,11 @@ def focus(t):
     slots = [(0, 0, wide), (wide + gap, 0, narrow), (0, th + gap, narrow), (narrow + gap, th + gap, wide)]
     tiles = []
     for (num, label, title, lines, kind, _), (x, y, tw) in zip(FOCUS, slots):
-        body = "".join(f'<text x="28" y="{222 + i * 26}" font-size="17" fill="{t["muted"]}">{line}</text>' for i, line in enumerate(lines))
+        body = "".join(f'<text x="28" y="{218 + i * 28}" font-size="19" fill="{t["muted"]}">{line}</text>' for i, line in enumerate(lines))
         tiles.append(f'''
 <g transform="translate({x:.2f} {y})">
   <rect x="0.5" y="0.5" width="{tw - 1:.2f}" height="{th - 1}" rx="22" fill="{t['tile']}" stroke="{t['border']}"/>
-  <text x="28" y="48" font-family="{MONO}" font-size="12" letter-spacing="1.5" fill="{t['faint']}">{num}  {label}</text>
+  <text x="28" y="48" font-family="{MONO}" font-size="14" letter-spacing="1.5" fill="{t['faint']}">{num}  {label}</text>
   <g transform="translate({tw - 84:.2f} 24)">{icon(kind, t)}</g>
   {decoration(kind, tw, t)}
   <text x="28" y="188" font-size="28" font-weight="650" letter-spacing="-0.8" fill="{t['text']}">{title}</text>

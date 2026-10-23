@@ -12,10 +12,10 @@
     <animate attributeName="opacity" values="0.2;0.32;0.2" dur="7s" repeatCount="indefinite"/>
   </ellipse>
 </g>
-<rect x="415.9" y="66" width="368.2" height="36" rx="18" fill="#FFFFFF" stroke="#E6E6E3"/>
-<circle cx="437.9" cy="84" r="4.5" fill="url(#g)"/>
-<text x="455.9" y="88.5" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13" fill="#6F6E69"
-  textLength="304.2" lengthAdjust="spacing">ROBERT  ·  YC FOUNDER  ·  SAN FRANCISCO</text>
+<rect x="404.2" y="66" width="391.6" height="36" rx="18" fill="#FFFFFF" stroke="#E6E6E3"/>
+<circle cx="426.2" cy="84" r="4.5" fill="url(#g)"/>
+<text x="444.2" y="88.5" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="14" fill="#6F6E69"
+  textLength="327.6" lengthAdjust="spacing">ROBERT  ·  YC FOUNDER  ·  SAN FRANCISCO</text>
 <text x="600" y="214" text-anchor="middle" font-size="84" font-weight="700" letter-spacing="-3.2" fill="#191919">Robotics. Harnesses.</text>
 <text x="600" y="306" text-anchor="middle" font-size="84" font-weight="700" letter-spacing="-3.2" fill="url(#g)">GPUs. Compute.</text>
 <text x="600" y="378" text-anchor="middle" font-size="24" fill="#6F6E69">YC founder. I scaled stormy.ai to $250k ARR, solo.</text>
